@@ -1,23 +1,25 @@
-# Distributed Database Management with Oracle
+# Gestion de base de données distribuée avec Oracle
 
-## Project Description
+## Description du projet
 
-This project demonstrates a distributed database management system using Oracle Database. The system is designed to manage client data across three sites (site1, site2, and site3) with distributed data storage and query capabilities.
+Ce projet présente un système de gestion de base de données distribuée utilisant Oracle Database. Le système est conçu pour gérer les données des clients réparties sur trois sites (site1, site2 et site3) avec des capacités de stockage et de requêtes distribuées.
 
-## Features
-1. Creation of users for each site with appropriate privileges.
-2. Data distribution using Database Links and data fragmentation.
-3. Use of synonyms to simplify access to remote data.
-4. Integration of distributed data with a unified view using the `UNION` operator.
+## Fonctionnalités
 
-## Technologies Used
-- **Oracle Database** for data management.
-- **SQL** and **PL/SQL** for database operations.
+1. Création d'utilisateurs pour chaque site avec les privilèges appropriés.
+2. Distribution des données à l'aide de liens de base de données (Database Links) et de fragmentation des données.
+3. Utilisation de synonymes pour simplifier l'accès aux données distantes.
+4. Intégration des données distribuées avec une vue unifiée utilisant l'opérateur `UNION`.
 
-## Setup Instructions
+## Technologies utilisées
 
-1. **Install Oracle Database** and configure networking (`tnsnames.ora`, `listener.ora`).
-2. Run the scripts in the `sql-scripts` folder in the following order:
+- **Oracle Database** pour la gestion des données.
+- **SQL** et **PL/SQL** pour les opérations de base de données.
+
+## Instructions de configuration
+
+1. **Installer Oracle Database** et configurer le réseau (`tnsnames.ora`, `listener.ora`).
+2. Exécuter les scripts dans le dossier `sql-scripts` dans l'ordre suivant :
    - `01-create-users.sql`
    - `02-grant-privileges.sql`
    - `03-create-client-table.sql`
@@ -25,6 +27,4 @@ This project demonstrates a distributed database management system using Oracle 
    - `05-site3-dblink.sql`
    - `06-site1-synonyms.sql`
    - `07-site1-view.sql`
-3. Follow additional instructions in the `docs/setup_instructions.md` file for configuration details.
-
-
+3. Suivre les instructions supplémentaires dans le fichier `docs/setup_instructions.md` pour les détails de configuration.
