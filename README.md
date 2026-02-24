@@ -2,7 +2,7 @@
 
 ## Description du projet
 
-Ce projet présente un système de gestion de base de données distribuée utilisant Oracle Database. Le système est conçu pour gérer les données des clients réparties sur trois sites (site1, site2 et site3) avec des capacités de stockage et de requêtes distribuées.
+Ce projet scolaire présente un système de gestion de base de données distribuée utilisant Oracle Database. Le système est conçu pour gérer les données des clients réparties sur trois sites (site1, site2 et site3) avec des capacités de stockage et de requêtes distribuées.
 
 ## Fonctionnalités
 
